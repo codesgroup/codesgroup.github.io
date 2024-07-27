@@ -1,69 +1,44 @@
-// src/Noticias.js
-import React, { useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import Noticia from './Noticia';
 import './noticias.css';
 
 const Noticias = () => {
-  const containerRef = useRef(null);
+  const [noticias, setNoticias] = useState([]);
 
-  const scrollLeft = () => {
-    if (containerRef.current) {
-      containerRef.current.scrollBy({ left: -359, behavior: 'smooth' });
-    }
-  };
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/noticias.json');
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        console.log('JSON Data:', data); // Log the JSON data to the console
+        const sortedData = data.sort((a, b) => new Date(b.date) - new Date(a.date));
+        setNoticias(sortedData.slice(0, 4));
+      } catch (error) {
+        console.error('Error fetching the noticias:', error);
+      }
+    };
 
-  const scrollRight = () => {
-    if (containerRef.current) {
-      containerRef.current.scrollBy({ left: 359, behavior: 'smooth' });
-    }
-  };
+    fetchData();
+  }, []);
 
   return (
-    <div id='noticias' className="relative py-10 min-h-[105vh] flex items-center" style={{ backgroundColor: '#DFEFA6' }}>
-      <div className="max-w-screen-2xl mx-auto overflow-x-auto whitespace-nowrap scrollbar-hide pl-10 pr-10" ref={containerRef}>
-        <div className="inline-block">
+    <div id='noticias' className="py-10 min-h-[105vh] flex flex-col items-center" style={{ backgroundColor: '#DFEFA6' }}>
+      {noticias.length > 0 ? (
+        noticias.map((noticia, index) => (
           <Noticia 
-            title="Notícia 1" 
-            text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type..."
+            key={index}
+            title={noticia.title} 
+            author={noticia.author}
+            text={noticia.text}
+            date={noticia.date}
           />
-        </div>
-        <div className="inline-block">
-          <Noticia 
-            title="Notícia 2" 
-            text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type..."
-          />
-        </div>
-        <div className="inline-block">
-          <Noticia 
-            title="Notícia 3" 
-            text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type..."
-          />
-        </div>
-        <div className="inline-block">
-          <Noticia 
-            title="Notícia 4" 
-            text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type..."
-          />
-        </div>
-        <div className="inline-block">
-          <Noticia 
-            title="Notícia 5" 
-            text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type..."
-          />
-        </div>
-      </div>
-      <button
-        className="scroll-button scroll-button-left"
-        onClick={scrollLeft}
-      >
-        &lt;
-      </button>
-      <button
-        className="scroll-button scroll-button-right"
-        onClick={scrollRight}
-      >
-        &gt;
-      </button>
+        ))
+      ) : (
+        <p>Loading noticias...</p>
+      )}
     </div>
   );
 };
