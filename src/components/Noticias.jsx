@@ -28,10 +28,10 @@ const Noticias = () => {
   }, []);
 
   return (
-    <div id='noticias' className="py-10 min-h-[105vh] flex flex-col items-center" style={{ backgroundColor: '#DFEFA6' }}>
+    <div id='noticias' className="py-10 min-h-[90vh] flex flex-col items-center" style={{ backgroundColor: '#DFEFA6' }}>
       <div className="w-full flex justify-between items-start mb-12">
         <img src={NoticiasLogo} alt="Imagem" className="pl-24 pt-8" />
-        <a href="/another-page" className="link-custom mt-8 mr-24">
+        <a href="/news" className="link-custom mt-8 mr-24">
           Ver todas as notícias <FontAwesomeIcon icon={faArrowRight} className="icon-custom" />
         </a>
       </div>
