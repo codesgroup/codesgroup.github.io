@@ -32,6 +32,9 @@ body {
   max-width: 64rem;
 }
 
+.max-w-custom {
+  max-width: 80rem;
+}
 .m-4 {
   margin: 1rem;
 }
@@ -112,4 +115,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.link-custom {
+  color: black;
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.link-custom:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.icon-custom {
+  font-size: 0.875rem; 
+  margin-left: 0.5rem; 
 }
