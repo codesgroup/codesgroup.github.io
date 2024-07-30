@@ -1,0 +1,29 @@
+/* menuNoticias.css */
+#menu-noticias {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DFEFA6;
+    height: auto;
+    padding-top: 7%;
+  }
+  
+  .noticia {
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .link-custom {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .icon-custom {
+    margin-left: 5px;
+  }
+  
