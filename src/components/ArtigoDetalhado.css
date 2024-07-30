@@ -1,0 +1,39 @@
+/* ArtigoDetalhado.css */
+.artigo-detalhado-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    min-height: 100vh;
+    background-color: #000000;
+  }
+  
+  .artigo-detalhado-content {
+    background-color: white;
+    width: 90%;
+    max-width: 70%;
+    margin: 5vh auto;
+    padding: 5vh 2vw;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .artigo-detalhado-content h1 {
+    margin-bottom: 4vh;
+    font-size: 2.4vh;
+    color: #333;
+  }
+  
+  .artigo-detalhado-content p {
+    margin-bottom: 2vh;
+    color: #555;
+    font-size: 2vh;
+  }
+  
+  .artigo-detalhado-content a {
+    display: block;
+    margin-top: 2vh;
+    color: #1a0dab;
+    text-decoration: underline;
+  }
+  

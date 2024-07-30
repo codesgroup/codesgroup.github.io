@@ -16,8 +16,8 @@ export const Footer = () => {
             Recife, PE - Brazil <br></br>
             </p>
             <p className='font-bold'>
-            +55 (81) xxxx-xxx ext. xxxxx <br/>
-            email@cin.ufpe.br
+            
+            codes@cin.ufpe.br
             </p>
         </div>
         <div className='mt-16 ml-10 '>

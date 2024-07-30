@@ -1,0 +1,15 @@
+/* artigos.css */
+#artigos {
+    background-color: black;
+    color: white;
+  }
+  
+  #artigos .link-custom {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #artigos .link-custom:hover {
+    color: #DFEFA6;
+  }
+  

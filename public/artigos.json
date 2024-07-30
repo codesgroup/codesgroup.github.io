@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Artigo 1",
+    "author": "Autor 1",
+    "id": 1,
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also...",
+    "date": "2024-07-01",
+    "link": "https://example.com/artigo1",
+    "revista": "https://example.com/artigo4"
+  },
+  {
+    "title": "Artigo 2",
+    "author": "Autor 2",
+    "id": 2,
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also...",
+    "date": "2024-07-02",
+    "link": "https://example.com/artigo2",
+    "revista": "https://example.com/artigo4"
+  },
+  {
+    "title": "Artigo 3",
+    "author": "Autor 3",
+    "id": 3,
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also...",
+    
+    "date": "2024-07-03",
+    "link": "https://example.com/artigo3",
+    "revista": "https://example.com/artigo4"
+  },
+  {
+    "title": "Artigo 4",
+    "author": "Autor 4",
+    "id": 4,
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also...",
+    "date": "2024-07-04",
+    "link": "https://example.com/artigo4",
+    "revista": "https://example.com/artigo4"
+  }
+]

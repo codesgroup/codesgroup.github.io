@@ -5,6 +5,7 @@ import { Sobre } from './Sobre';
 import { TimeSection } from './Time';
 import { Footer } from './Footer';
 import  Noticias from './Noticias';
+import Artigos from './Artigos';
 
 export const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ export const Homepage = () => {
       <Cover/>
       <Sobre/> 
       <TimeSection/> 
+      <Artigos /> 
       <Noticias/>
       <Footer/>
     </div>
