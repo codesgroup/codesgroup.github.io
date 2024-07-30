@@ -29,7 +29,7 @@ const Noticias = () => {
   }, []);
 
   return (
-    <div id='noticias' className="py-10 min-h-[90vh] flex flex-col items-center" style={{ backgroundColor: '#DFEFA6' }}>
+    <div id='noticias' className="py-10 min-h-[120vh] flex flex-col items-center" style={{ backgroundColor: '#DFEFA6' }}>
       <div className="w-full flex justify-between items-start mb-12">
         <img src={NoticiasLogo} alt="Imagem" className="pl-24 pt-8" />
         <Link to="/news" className="link-custom mt-8 mr-24">

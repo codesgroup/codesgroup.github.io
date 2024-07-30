@@ -30,27 +30,30 @@ export const MenuNoticias = () => {
   }, []);
 
   return (
-    <div id='menu-noticias' className="menu-noticias py-10 flex flex-col items-center" style={{ backgroundColor: '#DFEFA6' }}>
+    <div id="outer-container" className="outer-container" style={{ backgroundColor: '#DFEFA6' }}>
       <TopBar />
-      <div className="w-full flex justify-between items-start mb-12">
-        <img src={NoticiasLogo} alt="Imagem" className="pl-24 pt-8" />
-        <Link to="/" className="link-custom mt-8 mr-24">
-          Voltar para a página inicial <FontAwesomeIcon icon={faArrowRight} className="icon-custom" />
-        </Link>
+      <div id="menu-noticias" className="menu-noticias py-10 flex flex-col items-center">
+        <div className="w-full flex justify-between items-start mb-12">
+          <img src={NoticiasLogo} alt="Imagem" className="pl-24 pt-8" />
+          <Link to="/" className="link-custom mt-8 mr-24">
+            Voltar para a página inicial <FontAwesomeIcon icon={faArrowRight} className="icon-custom" />
+          </Link>
+        </div>
+        {noticias.length > 0 ? (
+          noticias.map((noticia, index) => (
+            <Noticia 
+              key={index}
+              id={noticia.id}
+              title={noticia.title}
+              author={noticia.author}
+              text={noticia.text}
+              date={noticia.date}
+            />
+          ))
+        ) : (
+          <p>Loading noticias...</p>
+        )}
       </div>
-      {noticias.length > 0 ? (
-        noticias.map((noticia, index) => (
-          <Noticia 
-            key={index}
-            title={noticia.title} 
-            author={noticia.author}
-            text={noticia.text}
-            date={noticia.date}
-          />
-        ))
-      ) : (
-        <p>Loading noticias...</p>
-      )}
     </div>
   );
 };

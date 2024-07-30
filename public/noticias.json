@@ -1,38 +1,42 @@
 [
-    {
-      "title": "Notícia 1",
-      "author": "Autor 1",
-      "id":1,
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...",
-      "date": "2024-07-01"
-    },
-    {
-      "title": "Notícia 2",
-      "author": "Autor 2",
-      "id":2,
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...",
-      "date": "2024-07-02"
-    },
-    {
-      "title": "Notícia 3",
-      "author": "Autor 3",
-      "id":3,
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...",
-      "date": "2024-07-03"
-    },
-    {
-      "title": "Notícia 4",
-      "author": "Autor 4",
-      "id":4,
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...",
-      "date": "2024-07-04"
-    },
-    {
-      "title": "Notícia 5",
-      "id":5,
-      "author": "Autor 5",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...",
-      "date": "2024-07-05"
-    }
-  ]
-  
+  {
+    "title": "Notícia 1",
+    "author": "Autor 1",
+    "id": 1,
+    "text": "A primeira rede social a atingir o patamar de um milhão de usuários foi a MySpace, em 2004. Outras surgiram de lá para cá. Facebook, YouTube e WhatsApp possuem mais de 2 bilhões de usuários cada uma. Em menos de 20 anos, vimos um rápido crescimento delas e, dada nossa presença maciça nessas redes, não é à toa que a forma como as usamos esteja moldando diversos aspectos do nosso comportamento. As mudanças abrangem a forma como nos comunicamos, trabalhamos, aprendemos e nos divertimos.\n\nEstamos online e tendo que lidar com tal novidade. Mas a fácil disseminação e a crença de anonimato fazem das mídias sociais um ambiente muito utilizado para a propagação de discursos de ódio, que pode ser definido como ataque ou ameaça a outras pessoas motivados por raça, gênero, nacionalidade, orientação sexual, entre outros.\n\nAs redes sociais rejeitam o discurso de ódio e indicam que usuários que promovam esse tipo de discurso podem sofrer sanções. O volume de postagens nessas redes é imenso. Só o X (antigo Twitter) veicula, em média, seis mil postagens por segundo, ou seja, 500 milhões de postagens diárias. Estes são dados de apenas do X. Logo, a ideia de se ter intervenção humana, com a finalidade de verificar possíveis infrações, torna-se inviável. Além da dificuldade associada ao volume, a tarefa de indicar se um discurso é de ódio ou não, requer pessoas especializadas, pois um discurso muitas vezes pode ser confundido com sarcasmo, humor, ou linguagem ofensiva que, em muitos casos, pode ser protegida por lei. Dadas essas especificidades, realizar a moderação das postagens em redes sociais usando humanos é um trabalho desafiador, além de lento e não escalável. Logo, é necessário automatizar o processo e passar a tarefa para programas de computador que são replicáveis e respondem rapidamente.\n\nA tarefa de detectar discurso de ódio pode ser descrita de maneira simples: dado um conteúdo, deseja-se que o sistema responda sim, se o conteúdo contiver discurso de ódio ou não. Mas, a computação tradicional, determinística e que trabalha segundo regras estáticas, não é uma ferramenta adequada para a tarefa em questão.\n\nDaí emerge a aprendizagem de máquina, que é um ramo da Inteligência Artificial capaz de aprender a partir de dados. Ou seja, ao invés de ser explicitamente programada com regras extraídas de especialista humanos, as máquinas de aprendizagem capturam informações diretamente dos dados (postagens contendo ou não discurso de ódio) de maneira autônoma e automática, sendo assim, capazes de lidar com a incerteza inerente ao processo, além de poderem ser ajustadas para se adaptar às mudanças. As redes sociais já se valem de máquinas que aprendem para detectar e tentar impedir a disseminação de discurso de ódio.\n\nPorém, ainda há bastante espaço para ajustes e melhorias, pois a detecção automática de discurso de ódio é uma tarefa desafiadora e mal-definida; ainda não há consenso sobre como discurso de ódio deve ser definido. Neste cenário, é promissor vislumbrar estratégias capazes de sinergicamente integrar algoritmos e pessoas, capturando o melhor de cada um.\n\nGeorge Darmiton, professor titutar do CIn/ UFPE e membro da Academia Pernambucana de Ciências",
+    "date": "2024-07-01",
+    "link": "https://example.com/noticia1"
+  },
+  {
+    "title": "Notícia 2",
+    "author": "Autor 2",
+    "id": 2,
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...",
+    "date": "2024-07-02",
+    "link": "https://example.com/noticia2"
+  },
+  {
+    "title": "Notícia 3",
+    "author": "Autor 3",
+    "id": 3,
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...",
+    "date": "2024-07-03",
+    "link": "https://example.com/noticia3"
+  },
+  {
+    "title": "Notícia 4",
+    "author": "Autor 4",
+    "id": 4,
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...",
+    "date": "2024-07-04",
+    "link": "https://example.com/noticia4"
+  },
+  {
+    "title": "Notícia 5",
+    "author": "Autor 5",
+    "id": 5,
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...",
+    "date": "2024-07-05",
+    "link": "https://example.com/noticia5"
+  }
+]
