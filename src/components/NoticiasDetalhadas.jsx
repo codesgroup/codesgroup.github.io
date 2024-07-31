@@ -1,11 +1,12 @@
-// NoticiasDetalhadas.js
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { TopBar } from './TopBar'; // Certifique-se de que o caminho está correto
+import { FaArrowLeft } from 'react-icons/fa'; // Import the arrow icon
 import './NoticiasDetalhadas.css'; // Importe o arquivo CSS
 
 const NoticiasDetalhadas = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const [noticia, setNoticia] = useState(null);
 
   useEffect(() => {
@@ -31,15 +32,20 @@ const NoticiasDetalhadas = () => {
   }
 
   return (
-    <div className="noticia-detalhada-container" style={{ backgroundColor: '#DFEFA6', minHeight:'fit-content' }}>
+    <div className="noticia-detalhada-container">
       <TopBar />
       <div className="noticia-detalhada-content">
-        <h1>{noticia.title}</h1>
-        <a href={noticia.link} target="_blank" rel="noopener noreferrer"style={{marginBottom:'20%' }}>Leia a noticia completa</a>
-        <p>{noticia.date}</p>
-        <p>Por: {noticia.author}</p>
+        <div className="noticia-detalhada-header">
+          <FaArrowLeft 
+            className="back-arrow" 
+            onClick={() => navigate('/news')} 
+          />
+          <h1>{noticia.title}</h1>
+        </div>
+        <a href={noticia.link} target="_blank" rel="noopener noreferrer" className="noticia-link">Leia a noticia completa</a>
+        <p className="noticia-date">{noticia.date}</p>
+        <p className="noticia-author">Por: {noticia.author}</p>
         <p style={{ whiteSpace: 'pre-wrap' }}>{noticia.text}</p> 
-        
       </div>
     </div>
   );

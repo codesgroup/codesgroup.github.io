@@ -134,12 +134,15 @@ body {
   font-size: 1.25rem;
   text-decoration: none;
   transition: all 0.3s ease;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
 
 .link-custom:hover {
-  font-weight: bold;
+  font-weight: medium;
   text-decoration: underline;
+  font-family: 'Josefin Sans', sans-serif;
+  
 }
 
 .icon-custom {
