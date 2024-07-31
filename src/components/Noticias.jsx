@@ -29,7 +29,7 @@ const Noticias = () => {
   }, []);
 
   return (
-    <div id='noticias' className=" min-h-[120vh] flex flex-col items-center" style={{ backgroundColor: '#DFEFA6' }}>
+    <div id='noticias' className="min-h-fit-content flex flex-col items-center" style={{ backgroundColor: '#DFEFA6', paddingBottom: '4%', paddingTop:'4%' }}>
       <div className="w-full flex justify-between items-start mb-16">
         <img src={NoticiasLogo} alt="Imagem" className="pl-24 pt-8" />
         <Link to="/news" className="link-custom mt-8 mr-24">
@@ -40,6 +40,7 @@ const Noticias = () => {
         noticias.map((noticia, index) => (
           <Noticia 
             key={index}
+            id={noticia.id} // Adicione o id aqui
             title={noticia.title} 
             author={noticia.author}
             text={noticia.text}
