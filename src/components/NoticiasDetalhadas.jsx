@@ -35,7 +35,7 @@ const NoticiasDetalhadas = () => {
       <TopBar />
       <div className="noticia-detalhada-content">
         <h1>{noticia.title}</h1>
-        <a href={noticia.link} target="_blank" rel="noopener noreferrer"style={{marginBottom:'20%' }}>Link para a pagina completa</a>
+        <a href={noticia.link} target="_blank" rel="noopener noreferrer"style={{marginBottom:'20%' }}>Leia a noticia completa</a>
         <p>{noticia.date}</p>
         <p>Por: {noticia.author}</p>
         <p style={{ whiteSpace: 'pre-wrap' }}>{noticia.text}</p> 

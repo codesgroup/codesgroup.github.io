@@ -1,4 +1,3 @@
-// ArtigoDetalhado.js
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { TopBar } from './TopBar'; // Certifique-se de que o caminho está correto
@@ -35,10 +34,13 @@ const ArtigoDetalhado = () => {
       <TopBar />
       <div className="artigo-detalhado-content">
         <h1>{artigo.title}</h1>
-        <a href={artigo.link} target="_blank" rel="noopener noreferrer">Leia mais</a>
-        <p>{artigo.date}</p>
-        <p>{artigo.author}</p>
-        <p style={{ whiteSpace: 'pre-wrap' }}>{artigo.text}</p> {/* Adiciona quebras de linha */}
+        <p style={{ fontWeight: 'bold' }}>{artigo.authors}</p>
+        <p>{artigo.date} • <span className="revista">{artigo.revista}</span></p>
+        <a href={artigo.link} target="_blank" rel="noopener noreferrer">Leia o artigo completo</a>
+        <h2>Abstract</h2>
+        <p style={{ whiteSpace: 'pre-wrap' }}>{artigo.text}</p>
+        <h2>Introdução</h2>
+        <p style={{ whiteSpace: 'pre-wrap' }}>{artigo.introduction}</p>
       </div>
     </div>
   );

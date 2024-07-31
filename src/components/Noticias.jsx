@@ -40,7 +40,7 @@ const Noticias = () => {
         noticias.map((noticia, index) => (
           <Noticia 
             key={index}
-            id={noticia.id} // Adicione o id aqui
+            id={noticia.id} 
             title={noticia.title} 
             author={noticia.author}
             text={noticia.text}
