@@ -31,14 +31,14 @@ const NoticiasDetalhadas = () => {
   }
 
   return (
-    <div className="noticia-detalhada-container">
+    <div className="noticia-detalhada-container" style={{ backgroundColor: '#DFEFA6', minHeight:'fit-content' }}>
       <TopBar />
       <div className="noticia-detalhada-content">
         <h1>{noticia.title}</h1>
-        <a href={noticia.link} target="_blank" rel="noopener noreferrer">Leia mais</a>
+        <a href={noticia.link} target="_blank" rel="noopener noreferrer"style={{marginBottom:'20%' }}>Link para a pagina completa</a>
         <p>{noticia.date}</p>
-        <p>{noticia.author}</p>
-        <p style={{ whiteSpace: 'pre-wrap' }}>{noticia.text}</p> {/* Adiciona quebras de linha */}
+        <p>Por: {noticia.author}</p>
+        <p style={{ whiteSpace: 'pre-wrap' }}>{noticia.text}</p> 
         
       </div>
     </div>

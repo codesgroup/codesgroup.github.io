@@ -30,7 +30,7 @@ export const MenuNoticias = () => {
   }, []);
 
   return (
-    <div id="outer-container" className="outer-container" style={{ backgroundColor: '#DFEFA6' }}>
+    <div id="outer-container" className="outer-container" style={{ backgroundColor: '#DFEFA6', minHeight:'100%' }}>
       <TopBar />
       <div id="menu-noticias" className="menu-noticias py-10 flex flex-col items-center">
         <div className="w-full flex justify-between items-start mb-12">

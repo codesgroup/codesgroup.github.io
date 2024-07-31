@@ -12,8 +12,8 @@
   .noticia-detalhada-content {
     background-color: white;
     width: 80%;
-    max-width: 70%;
-    margin: 5vh auto;
+    max-width: 65%;
+    
     padding: 5vh 2vw;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -21,18 +21,28 @@
   }
   
   .noticia-detalhada-content h1 {
+    margin-top: 10%;
     margin-bottom: 4vh;
-    font-size: 2.4vh;
-    margin-left: 13%;
-    margin-right: 13%;
-    color: #333;
+    font-size:270%;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-right: 18%;
+    color: #000000;
   }
   
   .noticia-detalhada-content p {
     margin-bottom: 2vh;
-    color: #555;
-    margin-left: 13%;
-    margin-right: 13%;
+    color: #050000;
+    margin-left: 20%;
+    margin-right: 20%;
     font-size: 2vh;
+  }
+  .noticia-detalhada-content a {
+    margin-bottom: 20vh;
+    color: #683e3e;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 2vh;
+
   }
   
