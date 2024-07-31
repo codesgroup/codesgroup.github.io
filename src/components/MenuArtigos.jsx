@@ -1,4 +1,3 @@
-// MenuArtigos.js
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -46,7 +45,8 @@ export const MenuArtigos = () => {
               key={index}
               id={artigo.id}
               title={artigo.title}
-              author={artigo.author}
+              authors={artigo.authors} // Pass authors correctly
+              revista={artigo.revista} // Pass revista correctly
               text={artigo.text}
               date={artigo.date}
             />

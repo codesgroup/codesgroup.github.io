@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { TopBar } from './TopBar'; // Certifique-se de que o caminho está correto
+import { FaArrowLeft } from 'react-icons/fa'; // Import the arrow icon
 import './ArtigoDetalhado.css'; // Importe o arquivo CSS
 
 const ArtigoDetalhado = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const [artigo, setArtigo] = useState(null);
 
   useEffect(() => {
@@ -33,7 +35,13 @@ const ArtigoDetalhado = () => {
     <div className="artigo-detalhado-container">
       <TopBar />
       <div className="artigo-detalhado-content">
-        <h1>{artigo.title}</h1>
+        <div className="artigo-detalhado-header">
+          <FaArrowLeft 
+            className="back-arrow" 
+            onClick={() => navigate('/artigos')} 
+          />
+          <h1>{artigo.title}</h1>
+        </div>
         <p style={{ fontWeight: 'bold' }}>{artigo.authors}</p>
         <p>{artigo.date} • <span className="revista">{artigo.revista}</span></p>
         <a href={artigo.link} target="_blank" rel="noopener noreferrer">Leia o artigo completo</a>

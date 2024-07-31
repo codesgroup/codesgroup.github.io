@@ -29,7 +29,7 @@ const Artigos = () => {
   }, []);
 
   return (
-    <div id='artigos' className="min-h-fit-content flex flex-col items-center bg-black text-white" style={{paddingBottom: '4%', paddingTop:'5%' }}>
+    <div id='artigos' className="min-h-fit-content flex flex-col items-center bg-black text-white" style={{ paddingBottom: '4%', paddingTop: '5%' }}>
       <div className="w-full flex justify-between items-start mb-16">
         <img src={ArtigosLogo} alt="Imagem" className="pl-24 pt-8" />
         <Link to="/artigos" className="link-custom mt-8 mr-24 text-white">
@@ -42,7 +42,8 @@ const Artigos = () => {
             key={index}
             id={artigo.id} 
             title={artigo.title} 
-            author={artigo.author}
+            authors={artigo.authors} 
+            revista={artigo.revista} 
             text={artigo.text}
             date={artigo.date}
           />
