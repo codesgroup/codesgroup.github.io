@@ -107,3 +107,14 @@ body {
   font-size: 1rem;
   font-family: 'REM', sans-serif;
 }
+.noticia-subtitle {
+  margin-bottom: 4vh;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #000000;
+  font-family: 'REM', sans-serif;
+  text-align: left;
+  width: 65%;
+}

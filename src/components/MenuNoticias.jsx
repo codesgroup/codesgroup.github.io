@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Noticia from './Noticia';
 import './MenuNoticias.css'; // Specific CSS for MenuNoticias
-import NoticiasLogo from '../assets/NOTÍCIAS.png';
+import NoticiasLogo from '../assets/TODAS AS NOTÍCIAS.png';
 import { Link } from 'react-router-dom';
 import { TopBar } from './TopBar';
 

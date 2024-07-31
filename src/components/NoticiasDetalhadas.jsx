@@ -42,6 +42,7 @@ const NoticiasDetalhadas = () => {
           />
           <h1>{noticia.title}</h1>
         </div>
+        <h2 className="noticia-subtitle">{noticia.subtitulo}</h2> {/* Add subtitle here */}
         <a href={noticia.link} target="_blank" rel="noopener noreferrer" className="noticia-link">Leia a noticia completa</a>
         <p className="noticia-date">{noticia.date}</p>
         <p className="noticia-author">Por: {noticia.author}</p>

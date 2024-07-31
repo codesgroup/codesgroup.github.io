@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Artigo from './Artigo'; 
 import './MenuArtigos.css'; 
-import ArtigosLogo from '../assets/ARTIGOS.png';
+import TodosArtigosLogo from '../assets/TODOS OS ARTIGOS .png';
 import { Link } from 'react-router-dom';
 import { TopBar } from './TopBar';
 
@@ -30,12 +30,12 @@ export const MenuArtigos = () => {
   }, []);
 
   return (
-    <div id="outer-container" className="outer-container" style={{ backgroundColor: '#DFEFA6' }}>
+    <div id="outer-container" className="outer-container">
       <TopBar />
       <div id="menu-artigos" className="menu-artigos py-10 flex flex-col items-center">
         <div className="w-full flex justify-between items-start mb-12">
-          <img src={ArtigosLogo} alt="Imagem" className="pl-24 pt-8" />
-          <Link to="/" className="link-custom mt-8 mr-24">
+          <img src={TodosArtigosLogo} alt="Logo" className="logo"  style={{ marginTop: '10%' , marginLeft:'1%', width:'fit-content', height:'fit-content'}} />
+          <Link to="/" className="link-custom" style={{ marginTop: '10%', marginRight:'6%' }}>
             Voltar para a página inicial <FontAwesomeIcon icon={faArrowRight} className="icon-custom" />
           </Link>
         </div>
