@@ -1,6 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const TopBar = () => {
+
+
+  const navigate = useNavigate();
+
+  const handleLogoClick = () => {
+    navigate('/');
+  };
   
   const handleScroll = (event, id) => {
     event.preventDefault();
@@ -15,7 +23,7 @@ export const TopBar = () => {
       <div className='mx-20 flex justify-between'>
         <div id='image'>
           <svg
-            onClick={(e) => handleScroll(e, 'squares')}
+            onClick={handleLogoClick}
             className='cursor-pointer'
             width="195"
             height="64"
