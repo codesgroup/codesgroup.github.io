@@ -5,7 +5,7 @@ import Artigo from './Artigo';
 import './MenuArtigos.css'; 
 import TodosArtigosLogo from '../assets/TODOS OS ARTIGOS .png';
 import { Link } from 'react-router-dom';
-import { TopBar } from './TopBar';
+import { TopBarTwo } from './TopBarTwo';
 
 export const MenuArtigos = () => {
   const [artigos, setArtigos] = useState([]);
@@ -31,7 +31,7 @@ export const MenuArtigos = () => {
 
   return (
     <div id="outer-container" className="outer-container">
-      <TopBar />
+      <TopBarTwo/>
       <div id="menu-artigos" className="menu-artigos py-10 flex flex-col items-center">
         <div className="w-full flex justify-between items-start mb-12">
           <img src={TodosArtigosLogo} alt="Logo" className="logo"  style={{ marginTop: '10%' , marginLeft:'1%', width:'fit-content', height:'fit-content'}} />
