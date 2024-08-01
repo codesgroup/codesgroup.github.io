@@ -5,7 +5,7 @@ import Noticia from './Noticia';
 import './MenuNoticias.css'; // Specific CSS for MenuNoticias
 import NoticiasLogo from '../assets/TODAS AS NOTÍCIAS.png';
 import { Link } from 'react-router-dom';
-import { TopBar } from './TopBar';
+import { TopBarTwo } from './TopBarTwo';
 
 export const MenuNoticias = () => {
   const [noticias, setNoticias] = useState([]);
@@ -31,7 +31,7 @@ export const MenuNoticias = () => {
 
   return (
     <div id="outer-container" className="outer-container" style={{ backgroundColor: '#DFEFA6', minHeight:'100%' }}>
-      <TopBar />
+      <TopBarTwo />
       <div id="menu-noticias" className="menu-noticias py-10 flex flex-col items-center">
         <div className="w-full flex justify-between items-start mb-12">
           <img src={NoticiasLogo} alt="Imagem" className="pl-24 pt-8" />

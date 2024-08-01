@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { TopBar } from './TopBar'; // Certifique-se de que o caminho está correto
+import { TopBarTwo } from './TopBarTwo'; // Certifique-se de que o caminho está correto
 import { FaArrowLeft } from 'react-icons/fa'; // Import the arrow icon
 import './ArtigoDetalhado.css'; // Importe o arquivo CSS
 
@@ -33,7 +33,7 @@ const ArtigoDetalhado = () => {
 
   return (
     <div className="artigo-detalhado-container">
-      <TopBar />
+      <TopBarTwo />
       <div className="artigo-detalhado-content">
         <div className="artigo-detalhado-header">
           <FaArrowLeft 
