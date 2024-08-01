@@ -25,6 +25,13 @@ export const TimeSection = () => {
               Doutoranda em Ciência da Computação
             </div>
           </div>
+          <h2 className='text-xl font-bold mb-2 ml-4 mr-7'>Mestrado</h2>
+          <div className='flex flex-col'>
+            <div className='bg-black rounded-lg p-4 my-1 mx-4 text-right'>
+              <span className='font-bold'>Leilane Cruz</span><br/>
+              Mestranda em Ciência da Computação
+            </div>
+          </div>
         </div>
 
         <div id='right-col' className='w-1/3 flex flex-col items-center'>
