@@ -1,6 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const TopBar = () => {
+
+
+  const navigate = useNavigate();
+
+  const handleLogoClick = () => {
+    navigate('/');
+  };
   
   const handleScroll = (event, id) => {
     event.preventDefault();
@@ -15,7 +23,7 @@ export const TopBar = () => {
       <div className='mx-20 flex justify-between'>
         <div id='image'>
           <svg
-            onClick={(e) => handleScroll(e, 'squares')}
+            onClick={handleLogoClick}
             className='cursor-pointer'
             width="195"
             height="64"
@@ -39,7 +47,7 @@ export const TopBar = () => {
             <a className='hover:text-custom-green' href='#time' onClick={(e) => handleScroll(e, 'time')}>Time</a>
           </div>
           <div>
-            <a className='hover:text-custom-green' href='#projetos' onClick={(e) => handleScroll(e, 'projetos')}>Projetos</a>
+            <a className='hover:text-custom-green' href='#artigos' onClick={(e) => handleScroll(e, 'artigos')}>Artigos</a>
           </div>
           <div>
             <a className='hover:text-custom-green' href='#noticias' onClick={(e) => handleScroll(e, 'noticias')}>Notícias</a>
