@@ -79,7 +79,7 @@ export const TimeSection = () => {
               Graduando em Engenharia da Computação
             </div>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 w-full text-left'>
-              <span className='font-bold'><a className='hover:text-custom-green' href="https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=DD5461A8E64340C70D5F244FE352C597#" target="_blank" rel="noopener noreferrer">Lucas Nascimento Brandao</a></span><br/>
+              <span className='font-bold'><a className='hover:text-custom-green' href="http://lattes.cnpq.br/9030762311562076" target="_blank" rel="noopener noreferrer">Lucas Nascimento Brandao</a></span><br/>
               Graduando em Engenharia da Computação
             </div>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 w-full text-left'>
