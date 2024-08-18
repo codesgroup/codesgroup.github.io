@@ -10,26 +10,43 @@ export const TimeSection = () => {
           <h2 className='text-xl font-bold mb-2 ml-4 mr-7'>Professor</h2>
           <div className='flex flex-col'>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 text-right'>
-              <span className='font-bold'>George Darmiton da Cunha Cavalcanti</span><br/>
+              <span className='font-bold'><a className='hover:text-custom-green' href="http://darmiton.com" target="_blank" rel="noopener noreferrer">George Darmiton da Cunha Cavalcanti</a></span><br/>
               Professor Titular do Centro de Informática da UFPE
             </div>
           </div>
+
           <h2 className='text-xl font-bold mt-4 mb-4 mr-7'>Doutorado</h2>
+          <div className='flex flex-col'>
+            <div className='bg-black rounded-lg p-4 my-1 mx-4 text-right'>
+              <span className='font-bold'>Ingryd Pereira</span><br/>
+              Doutoranda em Ciência da Computação
+            </div>
+            <div className='bg-black rounded-lg p-4 my-1 mx-4 text-right'>
+              <span className='font-bold'><a className='hover:text-custom-green' href="http://lattes.cnpq.br/4244055492368435" target="_blank" rel="noopener noreferrer">Johnathan Douglas F. Viana</a></span><br/>
+              Doutorando em Ciência da Computação
+            </div>
+          </div>
+
+          <h2 className='text-xl font-bold mb-2 ml-4 mr-7'>Mestrado</h2>
+          <div className='flex flex-col'>
+            <div className='bg-black rounded-lg p-4 my-1 mx-4 text-right'>
+              <span className='font-bold'>Leilane Cruz</span><br/>
+              Mestranda em Ciência da Computação
+            </div>
+            <div className='bg-black rounded-lg p-4 my-1 mx-4 text-right'>
+              <span className='font-bold'>Lucas A. Lisboa</span><br/>
+              Mestrando em Ciência da Computação
+            </div>
+          </div>
+          <h2 className='text-xl font-bold mb-2 ml-4 mr-7'>Membros Associados</h2>
           <div className='flex flex-col'>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 text-right'>
               <span className='font-bold'>Francimaria Nascimento</span><br/>
               Doutoranda em Ciência da Computação
             </div>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 text-right'>
-              <span className='font-bold'>Ingryd Pereira</span><br/>
-              Doutoranda em Ciência da Computação
-            </div>
-          </div>
-          <h2 className='text-xl font-bold mb-2 ml-4 mr-7'>Mestrado</h2>
-          <div className='flex flex-col'>
-            <div className='bg-black rounded-lg p-4 my-1 mx-4 text-right'>
-              <span className='font-bold'>Leilane Cruz</span><br/>
-              Mestranda em Ciência da Computação
+              <span className='font-bold'><a className='hover:text-custom-green' href="https://scholar.google.com/citations?user=jtYFoD0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Rafael Menelau Oliveira e Cruz</a></span><br/>
+              Professor Assistente em ÉTS-Montréal
             </div>
           </div>
         </div>
@@ -62,7 +79,7 @@ export const TimeSection = () => {
               Graduando em Engenharia da Computação
             </div>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 w-full text-left'>
-              <span className='font-bold'>Lucas Nascimento Brandao</span><br/>
+              <span className='font-bold'><a className='hover:text-custom-green' href="https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=DD5461A8E64340C70D5F244FE352C597#" target="_blank" rel="noopener noreferrer">Lucas Nascimento Brandao</a></span><br/>
               Graduando em Engenharia da Computação
             </div>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 w-full text-left'>
