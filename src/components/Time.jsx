@@ -22,7 +22,7 @@ export const TimeSection = () => {
               Doutoranda em Ciência da Computação
             </div>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 text-right'>
-              <span className='font-bold'><a className='hover:text-custom-green' href="http://lattes.cnpq.br/4244055492368435" target="_blank" rel="noopener noreferrer">Johnathan Douglas F. Viana</a></span><br/>
+              <span className='font-bold'><a className='hover:text-custom-green' href="http://lattes.cnpq.br/4244055492368435" target="_blank" rel="noopener noreferrer">Johnattan Douglas F. Viana</a></span><br/>
               Doutorando em Ciência da Computação
             </div>
           </div>
@@ -55,7 +55,7 @@ export const TimeSection = () => {
           <h2 className='text-xl font-bold w-full mb-2 text-left ml-16'>Graduação</h2>
           <div className='flex flex-wrap w-full'>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 w-full text-left'>
-              <span className='font-bold'>Bianca Lima</span><br/>
+              <span className='font-bold'><a className='hover:text-custom-green' href="https://br.linkedin.com/in/biancanathally" target="_blank" rel="noopener noreferrer">Bianca Lima</a></span><br/>
               Graduanda em Letras Português
             </div>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 w-full text-left'>
@@ -67,7 +67,7 @@ export const TimeSection = () => {
               Graduando em Ciência da Computação
             </div>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 w-full text-left'>
-              <span className='font-bold'>Igor Rocha</span><br/>
+              <span className='font-bold'><a className='hover:text-custom-green' href="https://www.linkedin.com/in/igorrocha28" target="_blank" rel="noopener noreferrer">Igor Rocha</a></span><br/>
               Graduando em Ciência da Computação
             </div>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 w-full text-left'>
@@ -79,7 +79,7 @@ export const TimeSection = () => {
               Graduando em Engenharia da Computação
             </div>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 w-full text-left'>
-              <span className='font-bold'><a className='hover:text-custom-green' href="http://lattes.cnpq.br/9030762311562076" target="_blank" rel="noopener noreferrer">Lucas Nascimento Brandao</a></span><br/>
+              <span className='font-bold'><a className='hover:text-custom-green' href="https://www.linkedin.com/in/lucas-n-brandão" target="_blank" rel="noopener noreferrer">Lucas Nascimento Brandao</a></span><br/>
               Graduando em Engenharia da Computação
             </div>
             <div className='bg-black rounded-lg p-4 my-1 mx-4 w-full text-left'>
