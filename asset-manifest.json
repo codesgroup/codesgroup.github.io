@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.b7f81cfa.css",
-    "main.js": "/static/js/main.112d2350.js",
+    "main.js": "/static/js/main.0002b351.js",
+    "static/media/Foto_Juscimara_Avelino.png": "/static/media/Foto_Juscimara_Avelino.f8fe54b9e1452dedaf6b.png",
     "static/media/Foto_Johnattan_Codes.jpg": "/static/media/Foto_Johnattan_Codes.4bed5cf61c0102f96d40.jpg",
     "static/media/Foto_GeorgeDarminton.jpg": "/static/media/Foto_GeorgeDarminton.b050a8a28e6aa146e74b.jpg",
     "static/media/foto_bianca_lima_codes.jpg": "/static/media/foto_bianca_lima_codes.061018fefb2883774714.jpg",
+    "static/media/foto_LucasCouri.jpg": "/static/media/foto_LucasCouri.9d6d6fe4caba156db76a.jpg",
     "static/media/Foto_Lucas_Brandão_Codes.webp": "/static/media/Foto_Lucas_Brandão_Codes.338ae5a593894a06377d.webp",
     "static/media/Foto - Lucas Lisboa.jpg": "/static/media/Foto - Lucas Lisboa.464e301dab270726a140.jpg",
     "static/media/Foto_Gabriel_Henrique_ghds_Codes.jpg": "/static/media/Foto_Gabriel_Henrique_ghds_Codes.7afdfac194951e51db07.jpg",
+    "static/media/Foto_Mariana_Beatriz.jpg": "/static/media/Foto_Mariana_Beatriz.3b4eb4cc47a61b11793c.jpg",
+    "static/media/Foto_Gabriela_Holanda.jpg": "/static/media/Foto_Gabriela_Holanda.0b89c08aafe9a22b5f5e.jpg",
     "static/media/Foto_Matheus.jpg": "/static/media/Foto_Matheus.7a8601121ca597965512.jpg",
     "static/media/Foto_Igor_Rocha_CoDes.jpg": "/static/media/Foto_Igor_Rocha_CoDes.e6a45b13a4fad697c9b4.jpg",
     "static/media/Foto_Ingryd_Vanessa.png": "/static/media/Foto_Ingryd_Vanessa.71726ea2fabb5b79ebd1.png",
@@ -15,20 +19,19 @@
     "static/media/Foto_Ernesto.jpeg": "/static/media/Foto_Ernesto.b2d347ae4344b6178876.jpeg",
     "static/media/Foto_Joao_Victor.jpg": "/static/media/Foto_Joao_Victor.ade50ecf521b9ce4e5c1.jpg",
     "static/media/Foto_Jose_Vinicius.jpeg": "/static/media/Foto_Jose_Vinicius.6c494b79ce13b1ecbcb3.jpeg",
+    "static/media/Foto_Karen.jpg": "/static/media/Foto_Karen.b6eec1ecc583c3936360.jpg",
     "static/media/fotoBreno.jpg": "/static/media/fotoBreno.3f2c5581fd09ba7ec2a3.jpg",
     "static/media/Foto_camila_vieira_cbv2.jpg": "/static/media/Foto_camila_vieira_cbv2.b0309da32c67e255573c.jpg",
     "static/media/cin.png": "/static/media/cin.e0a0d1aeac018ade9a3c.png",
-    "static/media/Foto_mariaLaraneirasjpeg.jpeg": "/static/media/Foto_mariaLaraneirasjpeg.e37883d7ba586b6d0745.jpeg",
-    "static/media/Foto_Francimariajpeg.jpeg": "/static/media/Foto_Francimariajpeg.2ce7a12561ad31fa8d00.jpeg",
     "static/media/LogoCodes.svg": "/static/media/LogoCodes.dc70bbc2b83f37ebe09fea28f1581091.svg",
     "index.html": "/index.html",
     "static/media/lupa2.svg": "/static/media/lupa2.3d49e22bc6281162dea9b194a0394a3d.svg",
     "static/media/lupa.svg": "/static/media/lupa.cc529f1e8ca0a64dc89c4bfdf707017e.svg",
     "main.b7f81cfa.css.map": "/static/css/main.b7f81cfa.css.map",
-    "main.112d2350.js.map": "/static/js/main.112d2350.js.map"
+    "main.0002b351.js.map": "/static/js/main.0002b351.js.map"
   },
   "entrypoints": [
     "static/css/main.b7f81cfa.css",
-    "static/js/main.112d2350.js"
+    "static/js/main.0002b351.js"
   ]
 }
